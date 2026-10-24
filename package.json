@@ -1,16 +1,16 @@
 {
-  "name": "@starstwinkle/dsh-reasoning-slider",
-  "version": "1.9.0",
+  "name": "@stars-twinkle/dsh-reasoning-slider",
+  "version": "1.9.1",
   "description": "Snap-to-gear thinking-strength slider for the DSH composer model picker, with a blue-purple Max gradient and flowing particles.",
   "license": "MIT",
-  "author": "StarsTwinkle",
-  "homepage": "https://github.com/StarsTwinkle/dsh-reasoning-slider#readme",
+  "author": "Stars-Twinkle",
+  "homepage": "https://github.com/Stars-Twinkle/dsh-reasoning-slider#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StarsTwinkle/dsh-reasoning-slider.git"
+    "url": "git+https://github.com/Stars-Twinkle/dsh-reasoning-slider.git"
   },
   "bugs": {
-    "url": "https://github.com/StarsTwinkle/dsh-reasoning-slider/issues"
+    "url": "https://github.com/Stars-Twinkle/dsh-reasoning-slider/issues"
   },
   "keywords": ["dsh", "deepseek-harness", "plugin", "bundle", "reasoning", "slider"],
   "type": "module",

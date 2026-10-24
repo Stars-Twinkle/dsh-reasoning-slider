@@ -18,14 +18,14 @@
  * DeepSeek "1017" chip working instead of dropping them.
  */
 window.__ModuleLoader__.load({
-	id: '@starstwinkle/dsh-reasoning-slider',
+	id: '@stars-twinkle/dsh-reasoning-slider',
 	factory(require) {
 		const React = require('react');
 		const ReactDOM = require('react-dom');
 		const h = React.createElement;
 		const { useState, useRef, useEffect, useLayoutEffect, useMemo, useSyncExternalStore, useId } = React;
 
-		const PKG = '@starstwinkle/dsh-reasoning-slider';
+		const PKG = '@stars-twinkle/dsh-reasoning-slider';
 		const NS = 'reasoning-slider';
 		const MENU_WIDTH = 280;
 		const THUMB_SIZE = 40;

@@ -2,4 +2,4 @@
 # (`dsh.client` in package.json) is discovered; all behavior is in the browser.
 - insert:
     - id: reasoning-slider
-      name: '@starstwinkle/dsh-reasoning-slider'
+      name: '@stars-twinkle/dsh-reasoning-slider'
