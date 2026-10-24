@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Thinking Strength Slider",
+    "description": "Replaces the composer's thinking-strength chooser with a snap-to-gear slider and keeps the model-name release chip visible."
+  }
+}

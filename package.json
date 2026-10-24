@@ -1,0 +1,45 @@
+{
+  "name": "@starstwinkle/dsh-reasoning-slider",
+  "version": "1.9.0",
+  "description": "Snap-to-gear thinking-strength slider for the DSH composer model picker, with a blue-purple Max gradient and flowing particles.",
+  "license": "MIT",
+  "author": "StarsTwinkle",
+  "homepage": "https://github.com/StarsTwinkle/dsh-reasoning-slider#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarsTwinkle/dsh-reasoning-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StarsTwinkle/dsh-reasoning-slider/issues"
+  },
+  "keywords": ["dsh", "deepseek-harness", "plugin", "bundle", "reasoning", "slider"],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-model-selection",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

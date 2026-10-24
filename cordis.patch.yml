@@ -1,0 +1,5 @@
+# Reasoning-intensity slider bundle: the Host row exists so the Client half
+# (`dsh.client` in package.json) is discovered; all behavior is in the browser.
+- insert:
+    - id: reasoning-slider
+      name: '@starstwinkle/dsh-reasoning-slider'

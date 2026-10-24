@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <title>Reasoning intensity</title>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#101a2b"/>
+  <rect x="1" y="1" width="30" height="30" rx="9" stroke="#2a4a75" stroke-width="1.4"/>
+  <rect x="7" y="17" width="4" height="8" rx="2" fill="#3f6fa8"/>
+  <rect x="14" y="13" width="4" height="12" rx="2" fill="#4d9fff"/>
+  <rect x="21" y="8" width="4" height="17" rx="2" fill="#8cc4ff"/>
+  <circle cx="23" cy="5.5" r="1.6" fill="#8cc4ff"/>
+</svg>
