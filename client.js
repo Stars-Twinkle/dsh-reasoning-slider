@@ -109,12 +109,11 @@ window.__ModuleLoader__.load({
 .rsi_groups{display:flex;flex-direction:column;gap:1px;min-height:0;overflow-y:auto;border-radius:8px;scrollbar-width:thin}
 .rsi_group{padding:2px 0 4px}
 .rsi_groupTitle{padding:5px 8px 2px;font-size:11px;line-height:16px;color:var(--dsw-alias-label-tertiary,#8b9196)}
-.rsi_option{display:flex;align-items:flex-start;gap:8px;box-sizing:border-box;width:100%;min-height:34px;padding:5px 8px;border:none;border-radius:8px;background:transparent;color:inherit;font-family:inherit;font-size:13px;line-height:20px;text-align:left;cursor:pointer;outline:none}
+.rsi_option{display:flex;align-items:center;gap:8px;box-sizing:border-box;width:100%;min-height:34px;padding:5px 8px;border:none;border-radius:8px;background:transparent;color:inherit;font-family:inherit;font-size:13px;line-height:20px;text-align:left;cursor:pointer;outline:none}
 .rsi_option:hover:not(:disabled),.rsi_option:focus-visible{background:var(--dsw-alias-interactive-bg-hover,rgba(255,255,255,.08))}
 .rsi_option:disabled{color:var(--dsw-alias-label-dimmed,#6b7075);cursor:default}
 .rsi_optionCopy{display:flex;flex-direction:column;flex:1;min-width:0}
 .rsi_modelName{display:flex;align-items:center;gap:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.rsi_modelDesc{font-size:12px;line-height:16px;color:var(--dsw-alias-label-caption,#8b9196)}
 .rsi_check{display:grid;place-items:center;flex:none;width:16px;color:var(--rsi-accent)}
 .rsi_status{padding:10px 8px;font-size:12px;line-height:18px;color:var(--dsw-alias-label-tertiary,#8b9196)}
 .rsi_error{margin:4px;padding:7px 8px;border-radius:8px;background:var(--dsw-alias-interactive-bg-hover-danger,rgba(255,80,80,.14));color:var(--dsw-alias-state-error-primary,#ff6b6b);font-size:12px;line-height:18px}
@@ -1024,7 +1023,6 @@ const pctLeft = (x) => (trackWidth > 0 ? `${(x / trackWidth) * 100}%` : '0%');
 											{ className: 'rsi_modelName' },
 											renderModelLabel(group.provider, model, 'option', selected),
 										),
-										model.description !== undefined && h('span', { className: 'rsi_modelDesc' }, model.description),
 									),
 									h('span', { className: 'rsi_check' }, selected ? h(Check, { size: 16 }) : null),
 								);
